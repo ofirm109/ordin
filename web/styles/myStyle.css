@@ -1,0 +1,254 @@
+﻿body {
+    direction: rtl;
+    font-family: 'Open Sans', sans-serif;
+    background-color: black;
+}
+
+@media screen and (min-width: 100px) {
+    #container {
+        width: 960px;
+        margin: 0 auto;
+    }
+
+    .c2-4-0, .c3-4-0 {
+        height: 550px;
+        background-image: url(../image/bacrund.png);
+    }
+
+    /*תחילת אדר*/
+    #header {
+        background-color: black;
+        width: 960px;
+        height: 70px;
+    }
+
+        #header h2 {
+            color: #e9f300;
+            float: left;
+            font-size: 48pt;
+            font-weight: bold;
+        }
+
+    h1 {
+        margin-top: 10px;
+        font-size: 30pt;
+        font-weight: bold;
+        margin-right: 50px;
+        color: white;
+    }
+
+    #logo {
+        display: inline-block;
+        background-image: url(../image/logo-01.png);
+        width: 200px;
+        height: 70px;
+        background-size: 100% 100%;
+    }
+    /*סוף אדר*/
+
+    /*התחלה של פוטר*/
+
+    .fo2-4-0, .fo3-4-0 {
+        margin-top: 50px;
+    }
+
+    #footer {
+        background-color: #2f2f2f;
+        width: 960px;
+        height: 50px;
+        /*margin-top: 100px;*/
+    }
+
+    #text_footer {
+        display: inline-block;
+        float: right;
+        margin-top: 10px;
+        margin-right: 20px;
+        color: #9f9f9f;
+    }
+    /*סוף של פוטר*/
+
+    /*התחלה דף נחיתה 2.4.0 ,3.4.0*/
+    form {
+        display: block;
+        margin-right: 50px;
+    }
+
+    label {
+        color: white;
+    }
+
+    #FirstName, #LastName, #fone, #myMS, #email {
+        color: black;
+    }
+    /*סוף דף נחיתה 2.4.0 ,3.4.0*/
+}
+/*חלק 2*/
+@media screen and (max-width: 758px) {
+    #container {
+        width: 480px;
+        margin: 0 auto;
+    }
+
+    .c2-4-0, .c3-4-0 {
+        height: 550px;
+        background-image: url(../image/bacrund.png);
+    }
+
+    /*תחילת אדר*/
+    #header {
+        background-color: black;
+        width: 480px;
+        height: 70px;
+    }
+
+        #header h2 {
+            color: #e9f300;
+            float: left;
+            margin-top: 10px;
+            font-size: 35pt;
+            font-weight: bold;
+        }
+
+    h1 {
+        margin-top: 10px;
+        font-size: 30pt;
+        font-weight: bold;
+        margin-right: 50px;
+        color: white;
+    }
+
+    #logo {
+        display: inline-block;
+        background-image: url(../image/logo-01.png);
+        width: 200px;
+        height: 70px;
+        background-size: 100% 100%;
+    }
+    /*סוף אדר*/
+
+    /*התחלה של פוטר*/
+
+    .fo2-4-0, .fo3-4-0 {
+        margin-top: 50px;
+    }
+
+    #footer {
+        background-color: #2f2f2f;
+        width: 480px;
+        height: 50px;
+        /*margin-top: 100px;*/
+    }
+
+    #text_footer {
+        display: inline-block;
+        float: right;
+        margin-top: 10px;
+        margin-right: 20px;
+        color: #9f9f9f;
+    }
+    /*סוף של פוטר*/
+
+    /*התחלה דף נחיתה 2.4.0 ,3.4.0*/
+    form {
+        display: block;
+        margin-right: 50px;
+    }
+
+    label {
+        color: white;
+    }
+
+    #FirstName, #LastName, #fone, #myMS, #email {
+        color: black;
+    }
+    /*סוף דף נחיתה 2.4.0 ,3.4.0*/
+}
+
+
+
+
+
+
+/*חלק 3*/
+@media screen and (max-width: 480px) {
+    #container {
+        width: 400px;
+        margin: 0 auto;
+    }
+
+    .c2-4-0, .c3-4-0 {
+        height: 600px;
+        background-image: url(../image/bacrund.png);
+    }
+
+    /*úçéìú àãø*/
+    #header {
+        background-color: black;
+        width: 400px;
+        height: 70px;
+    }
+
+        #header h2 {
+            color: #e9f300;
+            float: left;
+            margin-top: 13px;
+            font-size: 23pt;
+            font-weight: bold;
+        }
+
+
+    h1 {
+        margin-top: 10px;
+        font-size: 30pt;
+        font-weight: bold;
+        margin-right: 50px;
+        color: white;
+    }
+
+    #logo {
+        display: inline-block;
+        background-image: url(../image/logo-01.png);
+        width: 181px;
+        height: 70px;
+        background-size: 100% 100%;
+    }
+    /*ñåó àãø*/
+
+    /*äúçìä ùì ôåèø*/
+
+    .fo2-4-0, .fo3-4-0 {
+        margin-top: 50px;
+    }
+
+    #footer {
+        background-color: #2f2f2f;
+        width: 400px;
+        height: 50px;
+        /*margin-top: 100px;*/
+    }
+
+    #text_footer {
+        display: inline-block;
+        float: right;
+        margin-top: 10px;
+        margin-right: 20px;
+        color: #9f9f9f;
+    }
+    /*ñåó ùì ôåèø*/
+
+    /*äúçìä ãó ðçéúä 2.4.0 ,3.4.0*/
+    form {
+        display: block;
+        margin-right: 50px;
+    }
+
+    label {
+        color: white;
+    }
+
+    #FirstName, #LastName, #fone, #myMS, #email {
+        color: black;
+    }
+    /*ñåó ãó ðçéúä 2.4.0 ,3.4.0*/
+}
